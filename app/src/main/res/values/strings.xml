@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Firebase</string>
+    <string name="post_list">Post List</string>
 </resources>
