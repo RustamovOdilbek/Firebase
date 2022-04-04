@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import com.example.firebase.R.id.tv_signin
 import com.example.firebase.activity.BaseActivity
 import com.example.firebase.manager.AuthHandler
 import com.example.firebase.manager.AuthManager
@@ -34,7 +35,7 @@ class SignUpActivity : BaseActivity() {
         et_password = findViewById(R.id.et_password_1)
         et_c_password = findViewById(R.id.et_password_2)
         var btn_signup = findViewById<Button>(R.id.btn_signup)
-        val tv_signup = findViewById<TextView>(R.id.tv_signin)
+        val tv_signup = findViewById<TextView>(tv_signin)
         btn_signup.setOnClickListener(View.OnClickListener {
            firebaseSignUp(et_email.text.toString(), et_password.text.toString())
         })

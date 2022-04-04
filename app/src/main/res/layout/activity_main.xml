@@ -36,7 +36,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
-                    android:src="@drawable/ic_baseline_logout_24" />
+                    android:src="@drawable/ic_logout" />
 
             </LinearLayout>
         </androidx.appcompat.widget.Toolbar>
